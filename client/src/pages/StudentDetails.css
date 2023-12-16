@@ -1,0 +1,37 @@
+.tablediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.tablediv{
+    text-align: center;
+    font-size: medium;
+    word-spacing: 4%;
+    padding: 5%;
+
+}
+
+.right-container{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 6vh;
+    font-size: medium;
+    margin: 8%;
+}
+.right-container{
+    text-align: center;
+    font-size: medium;
+}
+.table-studentdetails{
+    & th{
+        margin: 2.0rem;
+        padding: 2.0rem;
+    }
+    & td{
+        margin: 2.0rem;
+        padding: 1.0rem;
+    }
+    
+}

@@ -1,0 +1,10 @@
+.col {
+    font-size: medium;
+    left: 50%;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    align-items: center;
+    border: 50;
+    padding: 10%;
+}

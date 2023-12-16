@@ -1,0 +1,29 @@
+.container{
+    max-width: 300rem;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(57, 233, 233) ;
+    color: white;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    word-spacing: 10%;
+    font-weight: bold;
+    color: white;
+    
+}
+.nav-links li{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    display: flex;
+    gap: 2.0rem;
+
+}

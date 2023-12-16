@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Urbanist,system-ui,Avenir,Arial, Helvetica, sans-serif;
+    color-scheme: light;
+}
+html{
+    font-size: 62.5%;
+}
+
+.login-image{
+    display: flex;
+    justify-content: center;
+    & img{
+        width: 20%;
+        height: auto;
+    }
+}
+.section-login{
+    padding: 0 3.2rem;
+    & .container-login{
+        padding-top: 3.2rem;
+        align-items: center;
+
+    }
+    & .LogginStudent-form{
+        & label{
+            display: inline;
+            margin: 2.4rem 0 0.8rem 0;
+
+        }
+        & input{
+            width: auto;
+            padding: 0.6rem 0.6rem;
+        }
+        & button{
+            margin-top: 1.2rem;
+        }
+    }
+}
+
