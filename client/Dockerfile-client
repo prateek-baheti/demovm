@@ -1,0 +1,20 @@
+FROM node:16
+
+WORKDIR /usr/src/app/client
+
+COPY package*.json ./
+
+# Clean npm cache
+RUN npm cache clean --force
+
+RUN npm install 
+
+COPY . .
+
+EXPOSE 5173
+
+CMD ["npm","run","dev","--","--host"]
+
+
+
+
