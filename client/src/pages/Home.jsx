@@ -28,7 +28,7 @@ export const Home =() =>{
                 <tr>
         <td>
             <label for="textField1">Text Field 1:</label>
-            <input type="text" id="textField1">
+            <input type="text" id="textField1"/>
         </td>
         <td>
             <button onclick="handleToStudent()">ADD EMPLOYEE</button>
@@ -37,7 +37,7 @@ export const Home =() =>{
     <tr>
         <td>
             <label for="textField2">Text Field 2:</label>
-            <input type="text" id="textField2">
+            <input type="text" id="textField2"/>
         </td>
         <td>
             <button onclick="handleToTeacher()">ADD DEPT</button>
