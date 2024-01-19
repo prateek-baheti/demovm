@@ -26,15 +26,23 @@ export const Home =() =>{
             <table className="table-studentdetails">
                 <thead>
                 <tr>
-                    <td>
-                    <button className='primaryButton' onClick={() => handleToStudent()}>
-                    StudentLogin
-                    </button>
-                    <button className='secondaryButton' onClick={() => handleToTeacher()}>
-                    TeacherLogin
-                    </button>
-                    </td>
-                </tr>
+        <td>
+            <label for="textField1">Text Field 1:</label>
+            <input type="text" id="textField1">
+        </td>
+        <td>
+            <button onclick="handleToStudent()">ADD EMPLOYEE</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="textField2">Text Field 2:</label>
+            <input type="text" id="textField2">
+        </td>
+        <td>
+            <button onclick="handleToTeacher()">ADD DEPT</button>
+        </td>
+    </tr>
                 </thead>
             </table>
             </div>
